@@ -1,4 +1,4 @@
-package com.hulu.cms;
+package team.hulu.cms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

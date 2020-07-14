@@ -1,4 +1,4 @@
-package com.hulu.cms.util;
+package team.hulu.cms.util;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

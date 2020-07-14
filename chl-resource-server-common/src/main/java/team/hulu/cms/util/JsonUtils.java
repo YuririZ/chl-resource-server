@@ -1,4 +1,4 @@
-package com.hulu.cms.util;
+package team.hulu.cms.util;
 
 import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
 import com.fasterxml.jackson.core.type.TypeReference;

@@ -1,4 +1,4 @@
-package com.hulu.cms.controller;
+package team.hulu.cms.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
