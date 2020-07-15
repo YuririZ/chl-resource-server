@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
+import org.bson.types.Binary;
 import org.springframework.data.annotation.Id;
 
 import java.time.LocalDateTime;
@@ -28,6 +29,10 @@ public class ImageDO {
      * 图片名
      */
     private String name;
+    /**
+     * 图片数据
+     */
+    private Binary content;
     /**
      * 创建用户
      */
