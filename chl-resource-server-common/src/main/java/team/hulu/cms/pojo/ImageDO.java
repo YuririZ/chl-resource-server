@@ -19,11 +19,11 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Accessors(chain = true)
 public class ImageDO {
-//    /**
-//     * 自增主键
-//     */
-//    @Id
-//    private Integer id;
+    /**
+     * 自增主键
+     */
+    @Id
+    private String id;
     /**
      * 图片名
      */
