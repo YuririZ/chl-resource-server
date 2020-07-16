@@ -6,7 +6,7 @@ spring:
     active: dev
 
 mybatis-plus:
-  type-aliases-package: com.hulu.uls.common.pojo
+  type-aliases-package: team.hulu.cms.common.pojo
 
 ---
 spring:
