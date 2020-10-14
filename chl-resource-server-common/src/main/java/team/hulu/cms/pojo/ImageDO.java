@@ -20,6 +20,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Accessors(chain = true)
 public class ImageDO {
+    private static final long serialVersionUID = -6126005485557632633L;
     /**
      * 自增主键
      */
@@ -29,6 +30,10 @@ public class ImageDO {
      * 图片名
      */
     private String name;
+    /**
+     * 文件扩展名
+     */
+    private String fileExtension;
     /**
      * 图片数据
      */

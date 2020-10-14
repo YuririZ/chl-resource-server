@@ -35,8 +35,10 @@ public class ImageServiceImpl implements ImageService {
             return false;
         }
         ImageDO imageDO = new ImageDO();
+        String fileName = file.getOriginalFilename();
+        String fileExtension = fileName.split("\\.")[1];
         try {
-            imageDO.setName(file.getOriginalFilename()).setContent(new Binary(file.getBytes())).setCreateTime(LocalDateTime.now());
+            imageDO.setName(fileName).setFileExtension(fileExtension).setContent(new Binary(file.getBytes())).setCreateTime(LocalDateTime.now());
             upload(imageDO);
         } catch (IOException e) {
             log.error("ImageServiceImpl upload setContent error");
